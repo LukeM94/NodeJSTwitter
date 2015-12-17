@@ -24,9 +24,7 @@
                 }
             };
 
-            <?php $searchTerm="Africa" ?>
-
-            xhttp.open("GET", "http://node1301651.azurewebsites.net/?q="+<?php echo $searchTerm ?>, true);
+            xhttp.open("GET", "http://node1301651.azurewebsites.net?q=wanker", true);
 
             xhttp.send();
         }

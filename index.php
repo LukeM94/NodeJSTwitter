@@ -24,7 +24,7 @@
                 }
             };
 
-            xhttp.open("GET", "http://node1301651.azurewebsites.net/q=wanker", true);
+            xhttp.open("GET", "http://node1301651.azurewebsites.net?q=wanker", true);
 
             xhttp.send();
         }

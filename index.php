@@ -24,7 +24,9 @@
                 }
             };
 
-            xhttp.open("GET", "http://node1301651.azurewebsites.net?q=wanker", true);
+            <?php $string="east belfast"?>
+
+            xhttp.open("GET", "http://node1301651.azurewebsites.net?q=<?php echo $string ?>", true);
 
             xhttp.send();
         }

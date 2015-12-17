@@ -41,11 +41,11 @@
     <h1>Twitter Search</h1>
 </header>
 <main>
-    <h2>Enter a term to search Twitter for and press submit</h2>
+    <h2>Enter a term to search Twitter for and hit enter</h2>
 
     <form method="get">
         Search Term: <input title="Yeoooo" type="text" name="searchTerm"><br>
-        <input type="submit">
+
     </form>
 </main>
 <aside id="twitter" >

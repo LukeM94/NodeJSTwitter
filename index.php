@@ -23,11 +23,16 @@
 
                 }
             };
-            xhttp.open("GET", "http://node1301651.azurewebsites.net/", true);
+            <?php$author = "cunt" ?>
+
+            xhttp.open("GET", "http://node1301651.azurewebsites.net/q="+<?php echo $author ?>, true);
+
             xhttp.send();
         }
 
     </script>
+
+
 
 </head>
 <body>

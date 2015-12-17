@@ -9,6 +9,8 @@
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    var tweets = JSON.parse(xhttp.responseText);
+
                     var tweetstring = "";
 
                     for (var i =0; i< tweets.length ; i++)

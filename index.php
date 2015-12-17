@@ -26,7 +26,7 @@
                 }
             };
 
-            console.log(<?php echo $_GET["searchTerm"]; ?>);
+            console.log("CUNT");
             xhttp.open("GET", "http://node1301651.azurewebsites.net?q=<?php echo $_GET["searchTerm"]; ?>", true);
 
             xhttp.send();

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Consuming Twitter Webserver</title>
 
-    <link rel= StyleSheet href="/css.css" type="text/css"/>
+    <link rel= StyleSheet href="css.css" type="text/css"/>
 
     <script>
         window.onload = function() {

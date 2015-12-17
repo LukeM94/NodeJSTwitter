@@ -24,6 +24,10 @@ h2{
     text-align: center;
 }
 
+form{
+    text-align: center;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

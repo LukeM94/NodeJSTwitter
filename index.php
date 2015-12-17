@@ -26,7 +26,7 @@
 
             <?php $string="east belfast"?>
 
-            xhttp.open("GET", "http://node1301651.azurewebsites.net?q=<?php echo $string ?>", true);
+            xhttp.open("GET", "http://node1301651.azurewebsites.net?q=<?php echo $_GET["searchTerm"]; ?>", true);
 
             xhttp.send();
         }
@@ -38,10 +38,15 @@
 </head>
 <body>
 <header>
-    <h1>Header Div</h1>
+    <h1>Node.js Twitter webservice</h1>
 </header>
 <main>
-    <h2> Main content </h2>
+    <h2>Enter a term to search for in twitter:</h2>
+
+    <form method="get">
+        Search Term: <input title="Yeoooo" type="text" name="searchTerm"><br>
+        <input type="submit">
+    </form>
 </main>
 <aside id="twitter" >
 

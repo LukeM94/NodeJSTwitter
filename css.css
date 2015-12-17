@@ -16,6 +16,14 @@ html {
     background-color: #59C3C3;
 }
 
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

@@ -44,8 +44,7 @@
     <h2>Enter a term to search Twitter for and hit enter</h2>
 
     <form method="get">
-        Search Term: <input title="Yeoooo" type="text" name="searchTerm"><br>
-
+        <input style="font-size:18pt;height:420px;width:200px;" title="Enter a search term" type="text" name="searchTerm"><br>
     </form>
 </main>
 <aside id="twitter" >
